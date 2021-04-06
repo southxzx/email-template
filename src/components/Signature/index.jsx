@@ -23,11 +23,13 @@ const Signature = (props) => {
         sel.addRange(range);
       }
       document.execCommand("copy");
+      alert("Copied successfully!");
     } else if (body.createTextRange) {
       range = body.createTextRange();
       range.moveToElementText(el);
       range.select();
       range.execCommand("Copy");
+      alert("Copied successfully!");
     }
   }
   return (

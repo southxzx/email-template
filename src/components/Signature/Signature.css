@@ -1,5 +1,6 @@
 @media (max-width: 480px){
   #myTable {
+    padding: 0 16px;
     max-width: 420px;
     width: 100% !important;
   }
