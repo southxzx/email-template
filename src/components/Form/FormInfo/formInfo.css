@@ -18,3 +18,13 @@
 .form-content .input-field:focus{
   outline: none;
 }
+
+@media (max-width: 480px){
+  .form-content {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+}

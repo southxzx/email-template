@@ -31,7 +31,7 @@ const Signature = (props) => {
     }
   }
   return (
-    <div>
+    <div style={{width: "100%"}}>
       <table id="myTable" style={{ width: "420px" }}>
         <tbody>
           {/* row 1 => name + position + logo home */}

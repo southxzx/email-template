@@ -1,2 +1,10 @@
-#myTable {
+@media (max-width: 480px){
+  #myTable {
+    max-width: 420px;
+    width: 100% !important;
+  }
+  .btn{
+    display: block;
+    margin: 10px auto;
+  }
 }
