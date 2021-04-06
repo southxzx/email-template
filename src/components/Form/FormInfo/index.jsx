@@ -20,13 +20,13 @@ const FormInfo = (props) => {
       value: position
     },
     {
-      placeholder: "Your email",
+      placeholder: "Your email address",
       label: "Email",
       name: "email",
       value: email
     },
     {
-      placeholder: "Your Phone Number",
+      placeholder: "Your phone number",
       label: "Phone Number",
       name: "phone",
       value: phone
