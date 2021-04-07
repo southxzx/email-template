@@ -1,6 +1,7 @@
 import FormInfo from "./components/Form/FormInfo";
 import Signature from "./components/Signature";
-import { useState, useEffect } from 'react'
+import { useState } from 'react';
+import MetaTags from 'react-meta-tags';
 
 function App() {
 
@@ -25,6 +26,12 @@ function App() {
 
   return (
     <div className="container">
+      <MetaTags>
+        <title>Signature | Vietcetera</title>
+        <meta name="description" content="Creating your signature using this template" />
+        <meta property="og:title" content="Signature | Vietcetera" />
+        <meta property="og:image" content="logo192.png" />
+      </MetaTags>
       <div className="content">
         <FormInfo
           {...dataFormDefault}

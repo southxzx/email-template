@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 // import Signature from '../../Signature'
 import './formInfo.css'
 
@@ -48,6 +48,10 @@ const FormInfo = (props) => {
               placeholder={itemInfo.placeholder} />
           </div>
         ))}
+        {/* <div className="address-block">
+          <label>Choose your address</label>
+          <input type="radio" value=/>
+        </div> */}
       </div>
       <button className="btn" onClick={handleReset}>Reset</button>
     </div>
