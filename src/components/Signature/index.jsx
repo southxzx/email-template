@@ -45,7 +45,7 @@ const Signature = (props) => {
                   <p style={{ margin: 0, fontSize: 12, color: '#292929', fontWeight: 500, }}>{position ? position : defaultValue.position}</p>
                 </div>
                 <div style={{ display: 'inline-block', float: 'right'}}>
-                  <img style={{ marginTop: "4px", width: "93px", height: "16px" }} src="https://vietcetera.com/uploads/images/06-apr-2021/text.png" alt="logo-home" width="93px" height="16px" />
+                  <a href="https://vietcetera.com/" target="_blank" rel="noopener noreferrer"><img style={{ marginTop: "4px", width: "93px", height: "16px" }} src="https://vietcetera.com/uploads/images/06-apr-2021/text.png" alt="logo-home" width="93px" height="16px" /></a>
                 </div>
               </div>
             </td>
