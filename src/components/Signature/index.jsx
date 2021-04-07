@@ -55,8 +55,8 @@ const Signature = (props) => {
           {/* row 2 => email */}
           <tr>
             <td style={{ padding: "10px 0 15px", borderBottom: "1px solid #292929", textTransform: "uppercase" }}>
-              <a style={{ margin: 0, fontSize: 12, color: '#292929', fontWeight: 500, paddingBottom: '6px', textDecoration: 'none' }} href="mailto:YOURNAME@VIETCETERA.COM" target="_blank">{email ? email : defaultValue.email}</a>
-              <p style={{ margin: 0, fontSize: 12, color: '#292929', fontWeight: 500 }}>{phone ? phone : defaultValue.phone}</p>
+              <a style={{ margin: 0, fontSize: 12, color: '#292929', fontWeight: 500, paddingBottom: '6px', textDecoration: 'none' }} href={`mailto:${email}`} target="_blank">{email ? email : defaultValue.email}</a>
+              <a style={{ margin: 0, fontSize: 12, color: '#292929', fontWeight: 500, display: 'block', textDecoration: 'none' }} href={`tel:${phone}`}>{phone ? phone : defaultValue.phone}</a>
             </td>
           </tr>
           {/* row 4 -> address */}
@@ -84,7 +84,7 @@ const Signature = (props) => {
           <tr>
             <td>
               <a href="https://jobs.lever.co/vietcetera" target="_blank" rel="noopener noreferrer" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>We're hiring</a>
-              <a href="https://vietcetera.us13.list-manage.com/subscribe?u=0c90f32d461af4703e6276078&id=2552de7ba8" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>Sign up for our email letter</a>
+              <a href="https://newsletter.vietcetera.com/subscribe-vietcetera-newsletter" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>Sign up for our email letter</a>
             </td>
           </tr>
         </tbody>
