@@ -89,7 +89,7 @@ const Signature = (props) => {
           </tr>
         </tbody>
       </table>
-      <button onClick={() => selectElementContents(document.getElementById('myTable'))} style={{ display: "block" }} className="btn">Copy</button>
+      <button onClick={() => selectElementContents(document.getElementById('myTable'))} style={{ display: "block", marginTop: "45px" }} className="btn">Copy</button>
     </div>
     // <div className="signature-content" style={{}}>
     //   <div className="name-pos-block" style={{display: "flex", justifyContent: "space-between", textTransform: "uppercase"}}>
