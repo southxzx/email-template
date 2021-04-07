@@ -26,12 +26,12 @@ function App() {
 
   return (
     <div className="container">
-      <MetaTags>
+      {/* <MetaTags>
         <title>Signature | Vietcetera</title>
         <meta name="description" content="Creating your signature using this template" />
         <meta property="og:title" content="Signature | Vietcetera" />
         <meta property="og:image" content="/vietcetera.ico" />
-      </MetaTags>
+      </MetaTags> */}
       <div className="content">
         <FormInfo
           {...dataFormDefault}
