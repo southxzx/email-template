@@ -63,10 +63,10 @@ const Signature = (props) => {
             </td>
           </tr>
           <tr style={{ fontSize: 12, color: '#292929' }}>
-            <td colSpan={1}>
+            <td colSpan={1} style={{ paddingTop: '10px'}}>
               <b>HCMC:</b>
             </td>
-            <td colSpan={11}>
+            <td colSpan={11} style={{ paddingTop: '10px'}}>
                 Centec Tower, Ground Floor <br />72-74 Nguyen Thi Minh Khai, District 3, HCMC
             </td>
           </tr>
