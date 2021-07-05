@@ -1,7 +1,6 @@
 import FormInfo from "./components/Form/FormInfo";
 import Signature from "./components/Signature";
 import { useState } from 'react';
-import MetaTags from 'react-meta-tags';
 
 function App() {
 

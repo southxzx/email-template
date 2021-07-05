@@ -3,6 +3,7 @@ import './Signature.css'
 
 const Signature = (props) => {
   const { name, email, phone, position } = props
+  const HOST_IMG = "https://vietcetera.com"
   const defaultValue = {
     name: 'Your name',
     email: 'yourname@vietcetera.com',
@@ -23,6 +24,7 @@ const Signature = (props) => {
         sel.addRange(range);
       }
       document.execCommand("copy");
+      console.log(range);
       alert("Copied successfully!");
     } else if (body.createTextRange) {
       range = body.createTextRange();
@@ -67,7 +69,7 @@ const Signature = (props) => {
               <b>HCMC:</b>
             </td>
             <td colSpan={11} style={{ paddingTop: '10px'}}>
-                Centec Tower, Ground Floor <br />72-74 Nguyen Thi Minh Khai, District 3, HCMC
+                Publik Office <br />38A Nguyen Thi Dieu, Ward 6, District 3, HCMC
             </td>
           </tr>
           <tr style={{ fontSize: 12, color: '#292929' }}>
@@ -80,16 +82,16 @@ const Signature = (props) => {
           </tr>
           <tr>
             <td colSpan={1} width="55px">
-              <a target="_blank" rel="noopener noreferrer" href="https://vietcetera.com/"><img width="30px" src="https://ci4.googleusercontent.com/proxy/_vdhVhGADR-e7T-X7fsgkDtAFbxhlSw1GCt1A2wGOkH35_G91SoqvE5Sa0AfVSruXI5kPJz-rDcC1-gNJ8hq227A=s0-d-e1-ft#https://i.postimg.cc/zDdRZGZj/Untitled-3-02.png" alt="logo-vietcetera" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://vietcetera.com/"><img width="30px" src={HOST_IMG + "/uploads/images/05-jul-2021/logo-vct.png"} alt="logo-vietcetera" /></a>
             </td>
             <td colSpan={1} width="55px">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vietcetera/"><img  width="30px" src="https://ci4.googleusercontent.com/proxy/1cXo37lAMSmNhBx0iiLM0sGWtm4GB-XA8jqbItl9wrXLiLxQD9Ka3HOnxI-BrYQFKg4s82ZkYm5I4EaR63xQ5qJq=s0-d-e1-ft#https://i.postimg.cc/Rhb3cXQ8/Untitled-3-03.png" alt="logo-vietcetera-ig" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vietcetera/"><img  width="30px" src={HOST_IMG + "/uploads/images/05-jul-2021/logo-ig.png"} alt="logo-vietcetera-ig" /></a>
             </td>
             <td colSpan={1} width="55px">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/vietcetera"><img  width="30px" src="https://ci6.googleusercontent.com/proxy/JcuaDTm8TtTUa2jB4UV3_WyjnTxegtqNtpTfntj8Tz4_B9Q-eHk6wT2uziX266HSEcvUCpalS_WrRIWgnQbjq4dv=s0-d-e1-ft#https://i.postimg.cc/prdhhg8z/Untitled-3-04.png" alt="logo-vietcetera-fb" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/vietcetera"><img  width="30px" src={HOST_IMG + "/uploads/images/05-jul-2021/logo-fb.png"} alt="logo-vietcetera-fb" /></a>
             </td>
             <td colSpan={1} width="55px">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/showcase/vietcetera-vn/"><img width="30px" src="https://ci5.googleusercontent.com/proxy/kozm-3AwfYwj3Sy0j4tkMfBlgXmMaOXUJUyuiJK2GK4xA-d8H6wNngjwIeOlxYmJtxF5gCJHTLENMmMJ2ksEJw=s0-d-e1-ft#https://i.postimg.cc/6pTTcJz6/Linkedin-03.png" alt="logo-vietcetera-linkedin" /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/showcase/vietcetera-vn/"><img width="30px" src={HOST_IMG + "/uploads/images/05-jul-2021/logo-in.png"} alt="logo-vietcetera-linkedin" /></a>
             </td>
             <td colSpan={8}></td>
           </tr>
@@ -102,6 +104,7 @@ const Signature = (props) => {
               <a href="https://newsletter.vietcetera.com/subscribe-vietcetera-newsletter" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>Sign up for our email letter</a>
             </td>
           </tr>
+          <tr/>
         </tbody>
       </table>
       <button onClick={() => selectElementContents(document.getElementById('myTable'))} style={{ display: "block", marginTop: "12px" }} className="btn">Copy</button>
