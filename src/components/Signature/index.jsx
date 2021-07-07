@@ -101,7 +101,7 @@ const Signature = (props) => {
               <a href="https://jobs.lever.co/vietcetera" target="_blank" rel="noopener noreferrer" style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>We're hiring</a>
             </td>
             <td colSpan={10}>
-              <a href="https://newsletter.vietcetera.com/subscribe-vietcetera-newsletter" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>Sign up for our email letter</a>
+              <a href="https://newsletter.vietcetera.com/subscribe-vietcetera-newsletter" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>SUBSCRIBE TO OUR NEWSLETTER</a>
             </td>
           </tr>
           <tr/>
