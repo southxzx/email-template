@@ -36,6 +36,12 @@ code {
   color: #292929;
   transition: all 0.3s;
 }
+.credit {
+  text-align: center;
+  margin-top: 24px;
+  color: #757575;
+  font-size: 14px;
+}
 
 @media (max-width: 480px){
   .container{

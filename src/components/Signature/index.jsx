@@ -69,7 +69,7 @@ const Signature = (props) => {
               <b>HCMC:</b>
             </td>
             <td colSpan={11} style={{ paddingTop: '10px'}}>
-                Publik Office <br />38A Nguyen Thi Dieu, Ward 6, District 3, HCMC
+                <strong>Empire City </strong><br />C2.3-4-5, Cove Residences, N19 Street, Empire City, <br/>Thu Duc City.
             </td>
           </tr>
           <tr style={{ fontSize: 12, color: '#292929' }}>
@@ -77,7 +77,7 @@ const Signature = (props) => {
               <b>Hanoi:</b>
             </td>
             <td colSpan={11} style={{ paddingBottom: '10px'}}>
-                Dreamplex Thai Ha <br />174 Thai Ha, Dong Da District, Hanoi
+                <strong>Dreamplex Thai Ha </strong><br />174 Thai Ha, Dong Da District, Hanoi.
             </td>
           </tr>
           <tr>
@@ -98,7 +98,7 @@ const Signature = (props) => {
           {/* row 6 => another text link */}
           <tr>
             <td colSpan={2}>
-              <a href="https://jobs.lever.co/vietcetera" target="_blank" rel="noopener noreferrer" style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>We're hiring</a>
+              <a href="https://vietcetera.com/career" target="_blank" rel="noopener noreferrer" style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>We're hiring</a>
             </td>
             <td colSpan={10}>
               <a href="https://newsletter.vietcetera.com/subscribe-vietcetera-newsletter" rel="noopener noreferrer" target="_blank" style={{ fontSize: "12px", fontWeight: 700, marginRight: "20px", textTransform: "uppercase", textDecoration: "none", color: '#292929' }}>SUBSCRIBE TO OUR NEWSLETTER</a>

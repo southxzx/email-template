@@ -24,24 +24,27 @@ function App() {
   }
 
   return (
-    <div className="container">
-      {/* <MetaTags>
+    <>
+      <div className="container">
+        {/* <MetaTags>
         <title>Signature | Vietcetera</title>
         <meta name="description" content="Creating your signature using this template" />
         <meta property="og:title" content="Signature | Vietcetera" />
         <meta property="og:image" content="/vietcetera.ico" />
       </MetaTags> */}
-      <div className="content">
-        <FormInfo
-          {...dataFormDefault}
-          handleChange={handleChange}
-          handleReset={handleReset}
-        />
-        <Signature
-          {...dataFormDefault}
-        />
+        <div className="content">
+          <FormInfo
+            {...dataFormDefault}
+            handleChange={handleChange}
+            handleReset={handleReset}
+          />
+          <Signature
+            {...dataFormDefault}
+          />
+        </div>
       </div>
-    </div>
+      <p className="credit">by @techteam with ❤</p>
+    </>
   );
 }
 
