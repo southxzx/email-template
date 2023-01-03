@@ -1,8 +1,9 @@
-@media (max-width: 480px){
+@media (max-width: 820px){
   #myTable {
     padding: 0 16px;
     max-width: 420px;
     width: 100% !important;
+    margin: 0 auto;
   }
   .btn{
     display: block;
